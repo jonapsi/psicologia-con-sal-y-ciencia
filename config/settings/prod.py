@@ -1,4 +1,4 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['tu-dominio.com']
+ALLOWED_HOSTS = ['psicologiaconsalyciencia.com','www.psicologiaconsalyciencia.com']
