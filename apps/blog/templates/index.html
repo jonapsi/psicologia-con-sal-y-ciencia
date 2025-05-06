@@ -1,0 +1,36 @@
+{% extends 'partials/_base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% block title %}
+        Psicología con Sal y Ciencia
+    {% endblock title %}
+        
+</head>
+<body>
+    <header>
+        {% block header %}
+            {% include 'partials/_header.html' %}
+        {% endblock header %}
+           
+        
+    </header>
+    <main>
+        
+        {% comment %} {% block main %}
+            {% include 'partials/_post.html' %}
+        {% endblock main %} {% endcomment %}
+
+        
+        {% comment %} {% block footer %}
+            {% include 'partials/_footer.html' %}
+        {% endblock footer %} {% endcomment %}
+            
+            
+    </main>
+</body>
+</html>
